@@ -118,14 +118,20 @@
 	text-transform: uppercase;
 	color: #7cba61;
 }
+.width800{
+	width: 800px !important;
+}
 .carousel .carousel-indicators {
 	bottom: -40px;
 }
+.carousel .card-indicators {
+	bottom: 0px !important;
+}
 .carousel-indicators li, .carousel-indicators li.active {
-	width: 18px;
-    height: 18px;
+	width: 10px;
+    height: 10px;
 	border-radius: 50%;
-	margin: 1px 3px;
+	margin: 1px 5px !important;
 }
 .carousel-indicators li {	
     background: #e2e2e2;
@@ -134,7 +140,7 @@
 .carousel-indicators li.active {
 	color: #fff;
     background: #7cba61;    
-    border: 5px double;    
+    border: 5px double; 
 }
 .bg-footer {
 	background: #292929;
