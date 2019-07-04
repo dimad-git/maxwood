@@ -6,6 +6,7 @@
 .nav-link{
 	padding: 1.5rem 1rem;
 	color: rgba(0,0,0,1) !important;
+	font-weight: 500;
 }
 .btn-center{
 	margin: auto;
@@ -31,6 +32,21 @@
 	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.43);
 	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.43);
 }
+.img-logo{
+	width: 305px;
+    margin-bottom: -81px;
+    position: relative;
+    z-index: 1000;
+}
+.imgPC{
+    -webkit-transition: all 0.2s ease;
+    -webkit-filter: sepia(0) saturate(0.8);
+
+	}
+.imgPC:hover{
+	-webkit-filter: sepia(0.15) saturate(1.2);
+    -webkit-transition: all 0.2s ease;
+	}
 .carousel-img {
 	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
 	filter: sepia(0.4) contrast(0.8);
