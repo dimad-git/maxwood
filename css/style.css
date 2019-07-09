@@ -50,6 +50,30 @@
 	-webkit-filter: sepia(0.15) saturate(1.2);
     -webkit-transition: all 0.2s ease;
 	}
+.d-lg-block{
+	margin:auto;
+}
+.lang{
+	position: absolute;
+    right: 5%;
+    margin-top: 1%;
+    z-index: 100;
+}
+.lang img{
+	width: 40px;
+	border: solid 2px #fff;
+	border-radius: 30px;
+}
+.btn-brown{
+	color: #000000;
+    background-color: #ebc995;
+    border-color: #a27114;
+    font-weight: 600;
+}
+.btn-brown:hover{
+	background-color: #c39f68;
+    color: #ffffff;
+}
 .carousel-img {
 	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
 	filter: sepia(0.4) contrast(0.8);
@@ -206,6 +230,10 @@ div.scrollup:hover {
         .carousel-caption h4 {
         	display: none;
         }
+        .lang img{
+			width: 25px;
+			border: solid 1px #fff;
+		}
 }
 @media (max-width: 767.99px) {
         .carousel-caption {
@@ -221,8 +249,7 @@ div.scrollup:hover {
 
 @media (max-width: 830px) {
         .carousel-caption {
-	        position: absolute;
-	        top: 40%;
+	        top: 40%  !important;
             transform: translateY(-40%);
         }
 }
