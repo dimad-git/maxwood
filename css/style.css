@@ -74,6 +74,19 @@
 	background-color: #c39f68;
     color: #ffffff;
 }
+.testimonial-box{
+	display: none;
+}
+.house-label{
+	position: absolute;
+    top: 155px;
+    margin-left: 13px;
+    z-index: 2000;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 2px rgba(206,89,55,0);
+    opacity: 0.7;
+}
 .carousel-img {
 	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
 	filter: sepia(0.4) contrast(0.8);
@@ -270,7 +283,11 @@ div.scrollup:hover {
     	.step-icon{
     		margin-top: unset;
     	}
-
+    	.house-label{
+    		top: 80px;
+    		margin-left: unset;
+    		font-size: 20px;
+    	}
 }
 
 
