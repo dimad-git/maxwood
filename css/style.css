@@ -110,6 +110,14 @@
 .card {
 	border: none;
 }
+.flex_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex_body .btn {
+    margin: 0 !important;
+}
 .step-icon {
 	margin-top: 122px;
 	color: #28a745;
