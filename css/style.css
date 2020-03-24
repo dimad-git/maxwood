@@ -296,6 +296,15 @@ div.scrollup:hover {
     		margin-left: unset;
     		font-size: 20px;
     	}
+        .navbar-nav :first-child {
+            margin-top: 25px;
+        }
+        .navbar-nav :nth-child(5) {
+            margin-left: 0 !important;
+        }
+        .navbar-nav :nth-child(6) {
+            margin-left: 0 !important;
+        }
 }
 
 
