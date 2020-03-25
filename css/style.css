@@ -109,6 +109,7 @@
 }
 .card {
 	border: none;
+    margin-top: 16px;
 }
 .flex_body {
     display: flex;
